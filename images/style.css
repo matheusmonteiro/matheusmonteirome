@@ -1,0 +1,188 @@
+	@font-face {
+	    font-family: 'raleway'; 
+	    src: url('raleway.otf'); 
+	}
+	@font-face {
+	    font-family: 'aargh'; 
+	    src: url('Aaargh.ttf'); 
+	}
+	ul{padding:0;list-style:none;height:50px;}
+	#ulholder li{width:23%;display:list-item;float:left;margin-right:2%;}
+	.social li{width:32%;display:list-item;float:left;margin-right:2%;}
+	.social li:last-child{margin:0;}
+	.social{width:100%;margin:-60px auto 0 auto;}
+	#socialHolder{padding: 150px 0}
+
+	html{height:100%;display:block;font-family:raleway;}
+	a{color:#FFF;}
+	body{height:100%;background:url(../images/photo1.jpg) no-repeat center center fixed;background-repeat:no-repeat;color:#ffffff;xfilter:blur(5px);overflow-x:hidden;margin:0;-webkit-background-size:cover;-moz-background-size:cover;-o-background-size:cover;background-size:cover;}
+	h1{text-align: center; font-weight: lighter; font-size: 3em; margin: 30px 0}
+	.branco{color:#fff;}
+	#clear{position:relative;}
+	#profilepic{border:#CCCCCC thin solid;width:70px;height:70px;background-color:#000000;border-radius:70px;background-image:url(../images/avatar.jpg);background-color:#ffffff;margin:10px auto 25px;}
+	#titlewrapper{vertical-align:middle;display: table-cell;text-align: left;padding-left: inherit; padding-right: 60%}
+	#wrapperProfile{width:100%;height:100%;display:table;vertical-align:middle;}
+	#title{font-family:raleway;font-size:40px;color:#fff;margin:0 auto;text-align:center;vertical-align:middle;-webkit-font-smoothing: antialiased;display: block;}
+	#subtitle{font-family:raleway;font-size:32px;color:#fff;-webkit-font-smoothing: antialiased;display: block;position: absolute;bottom: 100px;width: 90%;text-align: right;;;}
+	hr{width:50%;opacity:0.5;height:1px;border:0;height:1px;background-image: -webkit-linear-gradient(left, rgba(255,255,255,0), rgba(225, 225, 225, 0.75), rgba(255,255,255,0)); background-image:    -moz-linear-gradient(left, rgba(255,255,255,0), rgba(225, 225, 225, 0.75), rgba(255,255,255,0)); background-image:     -ms-linear-gradient(left, rgba(255,255,255,0), rgba(225, 225, 225, 0.75), rgba(255,255,255,0)); background-image:      -o-linear-gradient(left, rgba(255,255,255,0), rgba(225, 225, 225, 0.75), rgba(255,255,255,0)); }
+	.intro{width:70%;margin:50px auto;text-align:center;font-size:24px;color:#B0B4B6;font-weight:500;}
+	.last{margin:0!important;}
+	.wrap{margin-left:auto;margin-right:auto;width:100%;position:relative;padding:100px 0;}
+	/* ------------------- end see  ------------------- */
+	.socialContainer,.telHolder{width:75px;height:75px;opacity:0.5;border-radius:75px;border:3px solid rgba(255,255,255,0);-webkit-transition:all .2s linear;-moz-transition:all .2s linear;-o-transition:all .2s linear;transition:all .2s linear;display:block;margin:0 auto;}
+	.socialContainer:hover,.socialContainer:hover #telefone{opacity:1;border:3px solid rgba(255,255,255,1);-webkit-transition:all .2s linear;-moz-transition:all .2s linear;-o-transition:all .2s linear;transition:all .2s linear;}
+	.socialContainer img{margin-top:13px;margin-left:12px;}
+	.footer{bottom:0;font-size:1em;width:100%;text-align:center;float:right;  margin-top: 70px}
+	.touch span{width: 100%; text-align: center; font-size: 2em; display: block; padding-top:30px; font-weight: 100;}
+	.imageContainer{overflow:hidden;left:100px;float:left;top:100px;width:300px;margin-left:130px;border-radius:300px;border:3px solid #fff;height:300px;}
+	.telHolder span{display:inline-block;position:absolute;margin-left:-87px;font-size:21px;opacity:0;}
+	.home{height:90% !important;}
+	.ola{background-color:#fff;width:100%;color:#4192D9;}
+	.what{background-color:#F0F0F0;}
+	.what .intro{margin-top: 100px}
+
+	/* ----- PROJETO -------*/
+	.projeto{width:100%;padding-top:100px;padding-bottom:100px;overflow:auto;display:table; font-family: Open Sans Condensed;}
+	.projeto p{font-size: 1.5em}
+	/* ----- PROJETO -------*/
+	.cv{color:#B0B4B6;font-family:raleway;text-decoration:none;width:100%;margin:0 auto;text-align:center;margin-top:50px; font-weight: 200}
+	.cv:hover a{color:#4192D9; -moz-transition:.3s linear;-webkit-transition:.3s linear;-o-transition:.3s linear;transition:.3s linear;}
+	.cv:hover .cvIcon{background-image:url(../images/cvH.png); -moz-transition:.3s linear;-webkit-transition:.3s linear;-o-transition:.3s linear;transition:.3s linear;}
+	.cvIcon{background-image:url(../images/cv.png); background-size: 50px 50px; height:50px;width:50px;display:inline-table; vertical-align: middle; -moz-transition:.3s linear;-webkit-transition:.3s linear;-o-transition:.3s linear;transition:.3s linear;}
+	.cv span{vertical-align: middle;
+	display: inline-table;
+	margin-top: 7px;
+	margin-left: 20px}
+
+	/* tecs ----------------------------------------------------------------- */.tec{height:170px;display:block;background-color:#ccc;-webkit-transition:all .2s linear;-moz-transition:all .2s linear;-o-transition:all .2s linear;transition:all .2s linear;width:170px;margin:0 auto;border-radius:100%;}
+	.tec img{margin:25px;}
+	.tec:hover{-webkit-transition:all .2s linear;-moz-transition:all .2s linear;-o-transition:all .2s linear;transition:all .2s linear;}
+	.html5{left:50%;}
+	.html5:hover{background-color:#e44d26;}
+	.css3:hover{background-color:#2277ff;}
+	.wp:hover{background-color:#464646;}
+	#titleTec{width:100%;height:62px;background-color:#00305A;padding-top:10px;}
+	#containerTecs{width:70%;height:200px;margin:0 auto;text-align:center;}
+	#containerTecs ul{margin:0;padding:0;display:table;width:100%;}
+	#tituloTrabalhos{width:100%;background-color:#fff;padding-top:0.67em;padding-bottom:0.67em;}
+	#tituloTrabalhos h1{color:#ccc!important; font-weight: bold}
+	/* tecs ----------------------------------------------------------------- *//*  ----------------------------------contato intro------------------------------- */#contatoOla{width:70%;margin:0 auto;margin-top:50px;}
+	.contatos{display:inline-table;width:33%;font-family:"PT Sans";font-weight:100;}
+	.contatos a,.contatos img,.contatos p{display:table-cell;vertical-align:middle;display:inline-block;color:#4192D9;text-decoration:none;cursor:pointer;}
+	.contatos img{margin-right:30px;width:40px;}
+	.contatos{text-align:center;}
+	/*  ----------------------------------contato intro------------------------------- */
+	.clearfix:after{content:".";display:block;clear:both;visibility:hidden;line-height:0;height:0;}
+	.clearfix{display:inline-block;}
+	html[xmlns] .clearfix{display:block;}
+	* html .clearfix{height:1%;}
+	.grow{-webkit-transition-duration:.3s;transition-duration:.3s;-webkit-transition-property:0;transition-property:transform;-webkit-transform:translateZ(0);-ms-transform:translateZ(0);transform:translateZ(0);box-shadow:0 0 1px rgba(0,0,0,0);}
+	.grow:hover{-webkit-transform:scale(1.1);-ms-transform:scale(1.1);transform:scale(1.1);}
+
+	.containerImgProj, .holderProjTitle, .projLogo{display:table-cell; vertical-align: middle; text-align: center;}
+	 .projLogo{width: 35%}
+	.containerImgProj{width: 49%}
+	.projImage{ width: 94%;
+	float: left;}
+	.descricaoProjeto{width: 100%; background-color: #fff; display: block; padding-top: 50px; padding-bottom: 80px }
+	.descricaoProjeto h1{color: #4192D9}
+	.descricaoProjeto .desc{width: 70%; color: #ccc}
+	.acesse{width: 200px; height: 70px; border-radius: 10px; color: #fff; background-color: #C4C4C4; margin: 0 auto}
+	.acesse:hover{background-color: #1460A2}
+	.acesse p{line-height: 70px; font-weight: bolder; font-size: 20px;  }
+	.acesse p:before{content: ">"; margin: 0 33px 0 15px;  font-size: 25px}
+	.descricaoProjeto a{text-decoration: none}
+	.projeto p{text-align: left; padding-left: 20%}
+	.projeto a{text-align: left;}
+	/*  ----------------------------------VIP------------------------------- */
+	.vip{background: url(../images/geo.png) ;}
+	/*  --------------------------------//VIP//----------------------------- */
+
+	/*  ----------------------------------100+------------------------------- */
+	.v100{background: url(../images/geo4.png)}
+
+	/*  --------------------------------//100+//----------------------------- */
+
+	/*  ----------------------------------MENS------------------------------- */
+	.mh{background: url(../images/geo3.png); -webkit-box-shadow: 0px 5px 5px 0px rgba(50, 50, 50, 0.75);
+	-moz-box-shadow:    0px 5px 5px 0px rgba(50, 50, 50, 0.75);
+	box-shadow:         0px 5px 5px 0px rgba(50, 50, 50, 0.75);}
+
+
+	/*  --------------------------------//MENS//----------------------------- */
+
+	/*  ----------------------------------PLAYBOY------------------------------- */
+	.pb{background: url(../images/geo2.png)}
+
+	/*  --------------------------------//PLAYBOY//----------------------------- */
+
+	/*  ----------------------------------RECREIO------------------------------- */
+	.recreio{background: url(../images/geo5.png)}
+
+	/*  --------------------------------//RECRIO//----------------------------- */
+	@media all and (max-width: 1200px)
+	{
+		#titlewrapper{padding-right: 40%}
+	}
+	@media all and (max-width: 1024px)
+	{
+	#contatoOla{width: 100%;overflow: hidden;}
+
+	}
+
+	@media all and (max-width: 768px)
+	{
+		*{-webkit-font-smoothing: auto;}
+	#contatoOla{width: 100%;overflow: hidden;}
+	.contatos{font-size: 14px; width: 32%;}
+	.contatos a, .contatos img, .contatos p {display: block; text-align: center;}
+	.contatos img{margin: 0 auto}
+	.intro{width: 90%}
+	body{height:100%;background: url(../images/photo2.jpg) no-repeat center center; background-size: cover}
+	#titlewrapper{text-align: center; padding: 0}
+	#containerTecs{width: 90%}
+	#subtitle{padding: 0; text-align: center; width: 100%; font-size: 22px}
+	.touch{background: url(../images/photo2.jpg) no-repeat;
+	background-size: 100% 100%;}
+	 
+	}
+
+	@media all and (max-width: 480px)
+	{
+	*{-webkit-font-smoothing: auto;}
+	h1{font-size: 3em;margin: 20px 0 20px 0}
+	#title{font-size: 1.6em}
+	#subtitle{font-size:0.9em}
+	.wrap{padding: 20px 0;}
+	.contatos{width: 80%; margin-bottom: 20px; text-align: center; font-size: 0.8em}
+	#contatoOla{text-align: center;}
+	.contatos p {margin: 0}
+	#containerTecs{width: 90%}
+	.tec{width: 100%; height: auto; }
+	.tec img{width: 70%; height: 70%; margin: 15% 15% 10% 15%;}
+	.containerImgProj img {width: 90%; margin: 0 auto}
+	.holderProjTitle, .containerImgProj{width: 95%;display: block; margin: 0 auto}
+	.projeto{text-align: center;}
+	.projImage{float: none; display: block;}
+	.projLogo{width: 100%; display: block; margin-bottom: 30%}
+	body, { height:100%;background: url(../images/photo2.jpg) no-repeat center center fixed;
+	background-size: cover;}
+	.touch{background: url(../images/photo2.jpg) no-repeat center center ;}
+	.intro { width: 90%; font-size: 0.6em; text-align: center; margin-top:10px;font-size: 1.2em; margin: 1px auto; font-weight: bold; }
+	.descricaoProjeto h1{font-size: 2em; width: 90%; text-align: center; margin: 0 auto}
+	.what .intro{margin-top: 30px}
+	#containerTecs{height: auto;}
+	#tituloTrabalhos h1 {font-size: 2em;
+	margin: 5px 0 5px 0;}
+	.footer{margin-top: 55px}
+	}
+
+
+	*{-moz-transition: .5s linear;
+	-webkit-transition: .5s linear;
+	-o-transition: .5s linear;
+	transition: .5s linear;}
+
+
+
+
